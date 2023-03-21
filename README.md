@@ -16,7 +16,7 @@ Developer Trial Task - Copy ClassCentral Pages and Translate to Hindi
 • In your trial task form submission:
 
  	• Include a URL to the live website on your server so we can see that successfully copied it.
-    
+
  	• Let me know how you scraped the pages. Did you use httrack, another piece of software. or a script you wrote your self? 
 
 
@@ -26,6 +26,6 @@ wget -mkxKE -r -w 1 --level=1 --convert-links --user-agent="Mozilla/5.0 (Windows
 
 With wget I could bypass the scrapping protection and get the raw files locally. Next step use Python program to translate all the visible text in all HTML files of a directory. This is the siteToHindi.py.
 
-and finally site translated was deployed yo (ClassCentral)[https://github.com/VladT-Tempest/classcentral]
+and finally site translated was deployed yo [ClassCentral](https://github.com/VladT-Tempest/classcentral)
 
 
