@@ -1,4 +1,4 @@
-# SiteToIndy (Scrapping first two levels from a website)
+# SiteToIndy (Scraping first two levels from a website)
 
 This is a task completed inside a Job Testing. The challenge established the following:
 
@@ -24,7 +24,7 @@ To complete the task I cannot use HTTrack as the site has scraping protection. S
 
 wget -mkxKE -r -w 1 --level=1 --convert-links --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"  https://www.classcentral.com/
 
-With wget I could bypass the scrapping protection and get the raw files locally. Next step use Python program to translate all the visible text in all HTML files of a directory. This is the siteToHindi.py.
+With wget I could bypass the scraping protection and get the raw files locally. Next step use Python program to translate all the visible text in all HTML files of a directory. This is the siteToHindi.py.
 
 To complete the translation I used Yandex_tracker with BeautifulSoup.
 
