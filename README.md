@@ -26,6 +26,8 @@ wget -mkxKE -r -w 1 --level=1 --convert-links --user-agent="Mozilla/5.0 (Windows
 
 With wget I could bypass the scrapping protection and get the raw files locally. Next step use Python program to translate all the visible text in all HTML files of a directory. This is the siteToHindi.py.
 
+To complete the translation I used Yandex_tracker with BeautifulSoup.
+
 and finally site translated was deployed yo [ClassCentral](https://github.com/VladT-Tempest/classcentral)
 
 
