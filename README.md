@@ -1,4 +1,4 @@
-# SiteToIndy
+# SiteToIndy (Scrapping first two levels from a website)
 
 This is a task completed inside a Job Testing. The challenge established the following:
 
